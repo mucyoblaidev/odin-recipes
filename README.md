@@ -1,3 +1,3 @@
 # odin-recipes
 
-the current project is named the odin project and it will equip me with more knowledge on how i can be a better webdeveloper and increase my skills on web development.
+This project consists of recipes, how they are made and the ingredients used to make them it covers some of the basic skills i have acquired in the odin project for now in the HTML.
