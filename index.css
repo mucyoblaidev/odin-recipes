@@ -1,0 +1,83 @@
+body , html {
+    background-color: darkgray;
+    margin: 0px;
+    height: 100%;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+    color:green;
+    background-color: darkgray;
+    transition:0.7s;
+    text-transform:uppercase;
+}
+.pasta {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(193, 205, 212);
+    position:sticky;
+    display: flex;
+    justify-content: center;
+    background-color: darkred;
+    top:0px;
+    margin-top: 0px;
+}
+.a-w-salad {
+    font-weight: bold;
+}
+dd , p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+li , dt{
+    font-weight: bold;
+    list-style:lower-roman ;
+}
+h3 {
+    text-decoration: underline;
+}
+img {
+    width:150px;
+}
+img:hover {
+    position: relative;
+    bottom: 3px;
+}
+.southern {
+    display: flex;
+    flex-direction: column;
+}
+.fiesta {
+    height: 150px;
+}
+.ingredients {
+    background-color: white;
+}
+.steps {
+    background-color: rgb(39, 39, 58);
+}
+.button {
+    background-color: rgb(212, 66, 66);
+    border-width: 4px;
+    font-weight: bold;
+}
+.button:hover {
+    background-color: green;
+    transition:0.9s;
+    cursor:-webkit-grabbing;
+}
+dd , dt , p , ul:hover {
+    cursor:not-allowed;
+}
