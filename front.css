@@ -1,0 +1,23 @@
+.butz {
+    display: flex;
+    gap:30px;
+    justify-content: center;
+}
+.log-in , .sign-up {
+    padding:30px;
+    border-radius: 30px;
+    background-color: darkblue;
+    border-color: white;
+    color:beige;
+}
+.log-in:hover , .sign-up:hover {
+    background-color: green;
+    cursor:pointer;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+body{
+    background-color: rgb(49, 46, 46);
+}
