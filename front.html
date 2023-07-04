@@ -15,5 +15,15 @@
         <a href="index.html"><button class="log-in">LOG IN</button></a>
         <a href="https://auth.allrecipes.com/realms/alrcom/login-actions/registration?client_id=alrcom&tab_id=u0AYXMdCUsM"></a><button class="sign-up">SIGN UP</button>
     </div>
+    <script>
+        let button = document.querySelector("button");
+        function greet (){
+            let name = prompt("what\'s your name?")
+            alert(`hello ${ name }, nice to meet you!!`);
+        }
+        button.addEventListener("click", greet);
+    </script>
+
+
 </body>
 </html>
